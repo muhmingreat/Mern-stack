@@ -1,0 +1,8 @@
+20240619	17:52:46	499588e1-4bc6-4a3b-8c22-6b7410619c64	GET	/	undefined
+20240619	17:52:46	ef5f5380-fc59-4df5-8ace-365c5d2d8336	GET	/css/style.css	undefined
+20240619	18:15:33	1b485d44-9bb8-402c-b9a3-7309b0e8dddc	OPTIONS	/	https://www.google.com
+20240619	18:15:33	dbfd5edd-c315-4a27-81a6-50a85425d1aa	GET	/	https://www.google.com
+20240619	18:26:26	ee819c1a-c1de-494f-a099-dbd1a9ad3d4c	OPTIONS	/	https://www.google.com
+20240619	18:26:26	91987172-a5db-4456-8b23-43e5e8f886a4	GET	/	https://www.google.com
+20240619	18:47:58	ab0528fd-e93d-49bc-90f5-2e0fdcce9cd9	OPTIONS	/	https://www.google.com
+20240619	18:47:58	81bdc000-8b15-4ad8-9978-b6050ef68948	GET	/	https://www.google.com
