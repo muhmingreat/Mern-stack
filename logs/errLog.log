@@ -1,2 +1,4 @@
 20240619	18:47:58	f1c97862-8030-4684-8484-aed2f639e669	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
 20240619	18:47:58	f97ab4c1-bae3-4c58-9591-13e86a2c1002	Error: Not allowed by CORS	GET	/	https://www.google.com
+20240620	11:13:46	1c740f86-9c61-4abc-8022-67d3219c7987	SyntaxError: Expected double-quoted property name in JSON at position 42	POST	/users	undefined
+20240620	11:14:43	69c4203a-36d7-4cdb-abfe-f0ef1e0f934c	SyntaxError: Expected ',' or ']' after array element in JSON at position 65	POST	/users	undefined

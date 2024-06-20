@@ -4,10 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 4000
 const path = require('path')
 const errorHandler = require("./middleWare/errorHandler");
-const {logger} = require('./middleWare/logger')
+const {logger,logEvents} = require('./middleWare/logger')
 const cookieParser = require('cookie-parser')
-const cors = require('cors') 
-const logEvents = require('./middleWare/logger')
+const cors = require('cors')
 const corsOptions = require('./config/corsOptions')
 const connectDB = require('./config/dbConn')
 const mongoose  = require('mongoose')
@@ -25,6 +24,9 @@ connectDB()
 
 app.use("/", express.static(path.join(__dirname, "/public")));
 app.use('/', require('./routes/root')) 
+// app.use('/users', require('./routes/usersRoutes'))
+app.use("/users", require("./routes/usersRoutes"));
+
 app.all("*", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
